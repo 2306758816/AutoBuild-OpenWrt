@@ -52,7 +52,7 @@ jobs:
         echo "src-git passwall_luci https://github.com/Openwrt-Passwall/openwrt-passwall.git;main" >> ./feeds.conf.default
         echo "src-git poweroff https://github.com/sirpdboy/luci-app-poweroffdevice.git" >> ./feeds.conf.default
         echo "src-git istore https://github.com/linkease/istore.git" >> ./feeds.conf.default
-        echo "src-git easytier https://github.com/EasyTier/luci-app-easytier.git" >> ./feeds.conf.default
+        # echo "src-git easytier https://github.com/EasyTier/luci-app-easytier.git" >> ./feeds.conf.default
         
     - name: Update & Install feeds
       working-directory: ./openwrt
